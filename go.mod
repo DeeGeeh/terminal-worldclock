@@ -1,4 +1,4 @@
-module worldclock
+module github.com/DeeGeeh/terminal-worldclock
 
 go 1.24.2
 

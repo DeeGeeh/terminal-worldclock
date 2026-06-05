@@ -7,7 +7,6 @@
 *.dll
 *.so
 *.dylib
-*worldclock-linux-*
 
 # Test binary, built with `go test -c`
 *.test
@@ -31,3 +30,12 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Locally cross-compiled binaries — distributed as GitHub Release assets, not committed
+/terminal-worldclock
+worldclock-linux-*
+worldclock-darwin-*
+worldclock-windows-*
+
+# GoReleaser build output
+dist/
